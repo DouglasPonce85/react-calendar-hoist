@@ -32,6 +32,7 @@
 ```
 
 ## Previews
-![CalendarHoist](https://douglasponce85.github.io/images)
+![CalendarHoist](https://github.com/DouglasPonce85/react-calendar-hoist/blob/master/src/assets/preview-1.png?raw=true)
+![CalendarHoist](https://github.com/DouglasPonce85/react-calendar-hoist/blob/master/src/assets/preview-2.png?raw=true)
 
 
