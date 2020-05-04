@@ -37,5 +37,5 @@ export const cloudyDays = ['Clouds', 'Rain'];
 export const devlopedByInfo = {
     author: 'DouglasPonce85',
     linkedinUrl: "https://www.linkedin.com/in/douglasponce85/",
-    githubUrl: "https://github.com/DouglasPonce85"
+    githubUrl: "https://github.com/DouglasPonce85/react-calendar-hoist"
 }

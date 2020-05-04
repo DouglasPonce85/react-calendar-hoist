@@ -59,6 +59,10 @@ class Month extends Component {
         return this.state.weatherLoaded && this.state.forecast;
     }
 
+    getSortedReminders = (reminders) => {
+        return reminders.sort((a, b) => (a.time > b.time) ? 1 : -1);
+    }
+
     render() {
         let days = null;
         const { range } = this.props;
@@ -70,7 +74,8 @@ class Month extends Component {
             days = paddedRange.map(day => {
                 if (day) {
                     const formattedDay = format(day.date, 'D');
-                    const reminders = day.reminders.map(r => (
+                    const sortedReminders = this.getSortedReminders(day.reminders);
+                    const reminders = sortedReminders.map(r => (
                         <Reminder
                             openReminderForm={() => this.openReminderForm(day.id, r)}
                             key={r.id}

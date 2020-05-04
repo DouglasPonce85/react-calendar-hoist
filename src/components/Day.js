@@ -62,6 +62,7 @@ const ReminderButton = styled(Button)`
     background-color: transparent;
     font-size: 30px;
     top: 10px;
+    left: 40%;
 
     &:hover {
         transform: scale(1.3);
