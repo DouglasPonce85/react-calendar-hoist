@@ -1,4 +1,4 @@
-# React Blaster - Netflix Clone
+# React Calendar - Hoist
 
 <img src="https://github.com/DouglasPonce85/react-calendar-hoist/blob/master/src/assets/projectIma.jpg?raw=true" width="120">
 
@@ -6,15 +6,21 @@
 
 | QUESTION | DESCRIPTION |
 | ------ | ----------- |
-| Why named it Blaster?   | So here it goes as interesting for this character. Blaster is the Autobots' Communications Specialist, music enthusiast, and resident boombox with his own team of mini-cassettes and a strong disdain for Decepticons. |
+| Why named it Hoist?   | So here it goes as interesting for this character. If Ratchet is the Autobots' chief surgeon, then Hoist is their family doctor. Everyone reports to Hoist for routine check-ups and maintenance, no exceptions! A jovial, friendly robot, the up-beat Hoist enjoys his job and it shows. He speaks with a cultured British-sounding accent and can usually be found playing "Dr. Watson" to his friend Grapple's troubled artist in his off-hours. |
+
+## Technical Info
+- React with reducers
+- StyledComponents (for styling)
+- OpenWeatherMap API (http://api.openweathermap.org/data/2.5)
 
 ## Features
-- React with react-hooks (useState, useCallback, useEffect)
-- @Emotion (for styling)
-- Webpack
-- Babel
-- Eslint
-- Prettier
+- Adds reminders Able to input the name, city, time, color
+- List reminders ascending mode
+- Allow the user to select a color when creating a reminder.
+- Edit an existing reminder
+- Able to delete an existing reminder
+- Use of actions and reducers for state management
+- Weather forecast feature
   
 ## Installation
 ```
@@ -29,13 +35,3 @@
 ![CalendarHoist](https://douglasponce85.github.io/images)
 
 
-# REACT CALENDAR | HOIST
-
-## Features
-- Adds reminders Able to input the name, city, time, color
-- List reminders ascending mode
-- Allow the user to select a color when creating a reminder.
-- Edit an existing reminder
-- Able to delete an existing reminder
-- Use of actions and reducers for state management
-- Weather forecast feature: OpenWeatherMap API (http://api.openweathermap.org/data/2.5)
