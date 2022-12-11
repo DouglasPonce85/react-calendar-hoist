@@ -16,7 +16,7 @@
     "styled-normalize": "^8.0.6",
     "uuid": "^3.3.2",
     "owfont": "git+https://github.com/websygen/owfont.git",
-    "qs": "^6.3.0"
+    "qs": "^6.5.3"
   },
   "scripts": {
     "start": "react-scripts start",
